@@ -18,7 +18,7 @@ export default function MentionsLegalesPage() {
           </h1>
           <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
             <p>Éditeur du site : Go Black Motors.</p>
-            <p>Téléphone : +33 0 00 00 00 00.</p>
+            <p>Téléphone : +33 6 80 42 30 31.</p>
             <p>Email : contact@goblackmotors.com.</p>
             <p>Activité : vente de motos cross électriques, accessoires, équipements et pièces off-road.</p>
             <p>Les informations publiées ont pour objectif de présenter les produits et faciliter les demandes de prix.</p>
