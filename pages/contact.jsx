@@ -27,7 +27,7 @@ export default function ContactPage() {
                   Appel Direct
                 </p>
                 <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight mb-6">
-                  {siteMeta.phoneDisplay}
+                  Conseil & Disponibilité
                 </h2>
                 <p className="text-lg text-neutral-700 leading-relaxed mb-8">
                   Réponse rapide, conseil produit et premier échange clair sur la moto, les accessoires et la disponibilité.
