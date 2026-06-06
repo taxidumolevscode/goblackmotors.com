@@ -21,7 +21,7 @@ export default function HeroSection() {
       <div className="hero-glow" />
 
       <div className="z-10 text-center flex flex-col items-center max-w-6xl">
-        <div className="w-full text-left px-3 xl:px-6">
+        <div className="w-full text-center px-3 xl:px-6">
           <FadeIn delay={0.2}>
             <h2 className="hero-eyebrow text-xs md:text-sm minW1600:!text-[1.6vw] tracking-[0.18em] md:tracking-[0.4em] uppercase mb-4">
               {hero.eyebrow}
@@ -168,7 +168,7 @@ export default function HeroSection() {
 
         @media (min-width: 769px) {
           .hero-eyebrow {
-            transform: translateY(-1.5cm);
+            transform: translateY(-0.8cm);
           }
         }
 
