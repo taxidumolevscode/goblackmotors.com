@@ -12,8 +12,8 @@ export default function Document() {
         />
         <meta name="theme-color" content="#000000" />
         <meta name="application-name" content="Go Black Motors" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/favicon.svg" />
+        <link rel="icon" href="/talaria-black.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/talaria-black.svg" type="image/svg+xml" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <body>

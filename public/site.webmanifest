@@ -6,5 +6,12 @@
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "lang": "fr"
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/talaria-black.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }
