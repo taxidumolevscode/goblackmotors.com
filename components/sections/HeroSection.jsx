@@ -149,6 +149,14 @@ export default function HeroSection() {
           white-space: pre;
         }
 
+        .hero-eyebrow {
+          display: inline-block;
+          position: relative;
+          text-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.32),
+            0 0 18px rgba(255, 255, 255, 0.34);
+        }
+
         .hero-title-solid,
         .hero-title-outline {
           overflow: visible;
@@ -156,6 +164,12 @@ export default function HeroSection() {
 
         .hero-title-mobile {
           display: none;
+        }
+
+        @media (min-width: 769px) {
+          .hero-eyebrow {
+            transform: translateY(-1.5cm);
+          }
         }
 
         @media (max-width: 768px) {
