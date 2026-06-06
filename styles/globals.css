@@ -94,29 +94,24 @@ a[href^="mailto:"]:hover {
   color: #000 !important;
 }
 
-.hero-shell .hero-image {
-  filter: saturate(1.05) contrast(1.04) brightness(1.12) !important;
-}
-
 .hero-shell > .absolute.inset-0.bg-gradient-to-b {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.24),
-    rgba(0, 0, 0, 0.38),
-    rgba(0, 0, 0, 0.72)
+    rgba(0, 0, 0, 0.18),
+    rgba(0, 0, 0, 0.28),
+    rgba(0, 0, 0, 0.74)
   ) !important;
 }
 
 @media (min-width: 769px) {
-  .hero-shell > .absolute.inset-0.z-0.opacity-40 {
+  .hero-shell > .hero-visual {
     inset: 0 1.5cm !important;
-    opacity: 0.68 !important;
     overflow: hidden !important;
   }
 
   .hero-shell .hero-image {
     object-position: center center !important;
-    transform: scale(1) !important;
+    transform: scale(1.05) !important;
     transform-origin: center center !important;
   }
 }

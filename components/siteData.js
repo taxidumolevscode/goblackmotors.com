@@ -7,8 +7,8 @@ export const siteMeta = {
   whatsappHref: "https://wa.me/33000000000",
   email: "contact@goblackmotors.com",
   emailHref: "mailto:contact@goblackmotors.com",
-  heroImage: "/goblackmotors-moto-cross.jpeg",
-  mascotImage: "/goblackmotors-moto-cross.jpeg",
+  heroImage: "/talaria-e-bike-hero.webp",
+  mascotImage: "/talaria-e-bike-hero.webp",
 };
 
 export const navigationItems = [
@@ -47,7 +47,7 @@ export const homeContent = {
   services: [
     {
       slug: "motos-electriques",
-      image: "/goblackmotors-moto-cross.jpeg",
+      image: "/talaria-e-bike-hero.webp",
       title: "Motos Cross Électriques",
       subtitle: "Puissance, silence et couple instantané",
       delay: 0,
@@ -55,7 +55,7 @@ export const homeContent = {
     },
     {
       slug: "accessoires",
-      image: "/goblackmotors-moto-cross.jpeg",
+      image: "/talaria-e-bike-hero.webp",
       title: "Accessoires",
       subtitle: "Équipements pilote et off-road",
       delay: 0.1,
@@ -63,7 +63,7 @@ export const homeContent = {
     },
     {
       slug: "pieces",
-      image: "/goblackmotors-moto-cross.jpeg",
+      image: "/talaria-e-bike-hero.webp",
       title: "Pièces Et Entretien",
       subtitle: "Batteries, chargeurs et consommables",
       delay: 0.2,
@@ -71,7 +71,7 @@ export const homeContent = {
     },
     {
       slug: "conseil",
-      image: "/goblackmotors-moto-cross.jpeg",
+      image: "/talaria-e-bike-hero.webp",
       title: "Conseil Avant Achat",
       subtitle: "Choix selon usage et niveau",
       delay: 0,

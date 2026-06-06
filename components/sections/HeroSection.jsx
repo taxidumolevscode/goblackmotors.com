@@ -9,14 +9,15 @@ export default function HeroSection() {
 
   return (
     <header className="hero-shell relative w-full h-screen flex flex-col justify-center items-center overflow-hidden px-4">
-      <div className="absolute inset-0 z-0 opacity-40">
+      <div className="hero-visual absolute inset-0 z-0">
         <img
           src={siteMeta.heroImage}
           alt="E-Bike Électrique Go Black Motors"
-          className="hero-image w-full h-full object-cover"
+          className="hero-image w-full h-full object-contain"
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/55 to-black/75 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/78 z-0" />
+      <div className="hero-vignette" />
       <div className="hero-glow" />
 
       <div className="z-10 text-center flex flex-col items-center max-w-6xl">
@@ -99,9 +100,26 @@ export default function HeroSection() {
           min-height: 100svh;
         }
 
+        .hero-visual {
+          background:
+            radial-gradient(circle at center 52%, rgba(255, 255, 255, 0.95) 0%, rgba(238, 237, 232, 0.88) 42%, rgba(16, 16, 16, 0.9) 86%);
+          opacity: 0.92;
+        }
+
         .hero-image {
-          filter: saturate(0.9) contrast(1.02);
-          transform: scale(1.02);
+          filter: brightness(1.08) contrast(1.14) saturate(1.08) drop-shadow(0 2rem 3rem rgba(0, 0, 0, 0.35));
+          object-position: center 52%;
+          transform: scale(1.08);
+          transform-origin: center center;
+        }
+
+        .hero-vignette {
+          position: absolute;
+          inset: 0;
+          background:
+            radial-gradient(circle at center 52%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.08) 45%, rgba(0, 0, 0, 0.62) 100%);
+          pointer-events: none;
+          z-index: 0;
         }
 
         .hero-glow {
@@ -150,9 +168,9 @@ export default function HeroSection() {
           }
 
           .hero-image {
-            transform: scale(0.76) translateY(9%);
+            transform: scale(1.28) translateY(3%);
             transform-origin: center 62%;
-            opacity: 0.7;
+            opacity: 0.9;
           }
 
           .hero-glow {
@@ -237,7 +255,7 @@ export default function HeroSection() {
 
         @media (max-width: 420px) {
           .hero-image {
-            transform: scale(0.7) translateY(11%);
+            transform: scale(1.38) translateY(5%);
           }
 
           .hero-mobile-solid {
