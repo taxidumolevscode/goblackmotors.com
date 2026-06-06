@@ -416,7 +416,7 @@ export const faqMenuOptions = [
 export const productCatalog = [
   {
     category: "E-Bike",
-    name: "GBM E-Cross Black",
+    name: "TALARIA-CROSS BLACK LOOK",
     year: "2026",
     tagline: "Look full black, couple instantané et conduite silencieuse.",
     price: "Prix sur demande",
@@ -426,7 +426,7 @@ export const productCatalog = [
   },
   {
     category: "E-Bike",
-    name: "GBM E-Cross Junior",
+    name: "TALARIA-CROSS BLACK JUNIOR",
     year: "2026",
     tagline: "Format accessible pour progresser sur terrain privé.",
     price: "Prix sur demande",
@@ -436,7 +436,7 @@ export const productCatalog = [
   },
   {
     category: "E-Bike",
-    name: "GBM E-Cross Pro",
+    name: "TALARIA-CROSS BLACK PRO",
     year: "2026",
     tagline: "Une configuration plus nerveuse pour riders exigeants.",
     price: "Sur commande",
@@ -446,7 +446,7 @@ export const productCatalog = [
   },
   {
     category: "Pack",
-    name: "Pack Rider Start",
+    name: "TALARIA-CROSS BLACK START",
     year: "Accessoires",
     tagline: "Casque, gants et protections pour commencer équipé.",
     price: "Pack sur devis",
