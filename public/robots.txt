@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://goblackmotors.com/sitemap.xml

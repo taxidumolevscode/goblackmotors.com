@@ -1,0 +1,10 @@
+{
+  "name": "Go Black Motors",
+  "short_name": "Go Black Motors",
+  "description": "Vente de motos cross électriques, accessoires, équipements et pièces off-road.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "fr"
+}

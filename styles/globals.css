@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: geometricPrecision;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+.text-transparent {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .text-transparent {
+    -webkit-text-stroke: 1px white;
+  }
+}
+
+.writing-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+.text-shadow-soft {
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+:root {
+  --gbm-gold: #ffb600;
+}
+
+h1,
+h2,
+h3,
+.hero-title-solid,
+.hero-title-outline,
+.page-hero-heading {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.055em;
+}
+
+.hero-title-solid,
+.hero-mobile-solid,
+.hero-title-outline,
+.hero-mobile-outline {
+  font-weight: 900 !important;
+  letter-spacing: -0.065em !important;
+}
+
+.hero-title-outline,
+.hero-mobile-outline,
+.text-transparent {
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.96);
+  text-stroke-color: rgba(255, 255, 255, 0.96);
+}
+
+.hero-eyebrow,
+span[class*="tracking"][class*="text-gray-"],
+p[class*="tracking"][class*="text-gray-"],
+.font-mono[class*="text-gray-"] {
+  color: var(--gbm-gold) !important;
+}
+
+.hero-intro,
+p[class*="text-gray-"],
+li[class*="text-gray-"] {
+  text-shadow: none !important;
+}
+
+#contact h1.opacity-20 {
+  color: var(--gbm-gold) !important;
+  opacity: 1 !important;
+}
+
+a[href^="tel:"]:hover,
+a[href^="mailto:"]:hover {
+  background-color: var(--gbm-gold) !important;
+  border-color: var(--gbm-gold) !important;
+  color: #000 !important;
+}
+
+.hero-shell .hero-image {
+  filter: saturate(1.05) contrast(1.04) brightness(1.12) !important;
+}
+
+.hero-shell > .absolute.inset-0.bg-gradient-to-b {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.24),
+    rgba(0, 0, 0, 0.38),
+    rgba(0, 0, 0, 0.72)
+  ) !important;
+}
+
+@media (min-width: 769px) {
+  .hero-shell > .absolute.inset-0.z-0.opacity-40 {
+    inset: 0 1.5cm !important;
+    opacity: 0.68 !important;
+    overflow: hidden !important;
+  }
+
+  .hero-shell .hero-image {
+    object-position: center center !important;
+    transform: scale(1) !important;
+    transform-origin: center center !important;
+  }
+}
