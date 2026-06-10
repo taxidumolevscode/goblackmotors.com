@@ -436,7 +436,7 @@ export const productCatalog = [
     name: "TALARIA-CROSS BLACK JUNIOR",
     year: "2026",
     tagline: "Format accessible pour progresser sur terrain privé.",
-    price: "7 490 €",
+    price: "7 190 €",
     image: siteMeta.heroImage,
     specs: ["Junior", "Facile", "Progressif"],
     featured: false,
