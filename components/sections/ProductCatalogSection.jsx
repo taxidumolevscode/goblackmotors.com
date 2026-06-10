@@ -98,7 +98,7 @@ export default function ProductCatalogSection({
                     </div>
 
                     <Link
-                      href="/contact"
+                      href={`/contact?modele=${product.slug}#prix`}
                       className="flex w-full items-center justify-center border border-black bg-black px-5 py-3 text-xs font-black uppercase tracking-[0.22em] text-white hover:bg-[#ffb600] hover:text-black"
                     >
                       Demander un prix

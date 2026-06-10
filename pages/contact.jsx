@@ -1,10 +1,20 @@
+import { useRouter } from "next/router";
 import FadeIn from "../components/animations/FadeIn";
 import SeoHead from "../components/layout/SeoHead";
 import SiteLayout from "../components/layout/SiteLayout";
 import PageHero from "../components/sections/PageHero";
-import { officialContacts, siteMeta } from "../components/siteData";
+import { officialContacts, productCatalog, siteMeta } from "../components/siteData";
 
 export default function ContactPage() {
+  const router = useRouter();
+  const selectedSlug = typeof router.query.modele === "string" ? router.query.modele : "";
+  const selectedProduct = productCatalog.find((product) => product.slug === selectedSlug);
+  const whatsappHref = selectedProduct
+    ? `${siteMeta.whatsappHref}?text=${encodeURIComponent(
+        `Bonjour, je souhaite un prix pour ${selectedProduct.name} affiché à ${selectedProduct.price}.`
+      )}`
+    : siteMeta.whatsappHref;
+
   return (
     <>
       <SeoHead
@@ -20,6 +30,51 @@ export default function ContactPage() {
         />
 
         <section className="contact-surface bg-white text-black px-4 md:px-10 py-20 md:py-28">
+          {selectedProduct && (
+            <FadeIn>
+              <div
+                id="prix"
+                className="mb-10 rounded-[2rem] bg-black p-8 text-white md:p-10"
+              >
+                <p className="mb-5 text-xs font-bold uppercase tracking-[0.32em] text-[#ffb600]">
+                  Prix sélectionné
+                </p>
+                <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                  <div>
+                    <h2 className="max-w-4xl text-3xl font-black uppercase leading-[0.95] tracking-tight md:text-5xl">
+                      {selectedProduct.name}
+                    </h2>
+                    <p className="mt-4 max-w-2xl text-lg leading-relaxed text-white/70">
+                      {selectedProduct.tagline}
+                    </p>
+                  </div>
+                  <div className="shrink-0">
+                    <p className="text-sm font-bold uppercase tracking-[0.24em] text-white/45">
+                      Tarif affiché
+                    </p>
+                    <p className="mt-2 text-4xl font-black tracking-tight md:text-6xl">
+                      {selectedProduct.price}
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <a
+                    href={whatsappHref}
+                    className="inline-flex border border-white bg-white px-6 py-3 text-xs font-black uppercase tracking-[0.22em] text-black"
+                  >
+                    Message WhatsApp
+                  </a>
+                  <a
+                    href={siteMeta.phoneHref}
+                    className="inline-flex border border-white/30 px-6 py-3 text-xs font-black uppercase tracking-[0.22em] text-white"
+                  >
+                    Appeler Maintenant
+                  </a>
+                </div>
+              </div>
+            </FadeIn>
+          )}
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <FadeIn>
               <article className="contact-card rounded-[2rem] bg-neutral-100 p-8 md:p-10 h-full">
