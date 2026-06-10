@@ -9,6 +9,11 @@ export const siteMeta = {
   emailHref: "mailto:contact@goblackmotors.com",
   heroImage: "/talaria-e-bike-hero.webp",
   mascotImage: "/talaria-e-bike-hero.webp",
+  seoKeywords:
+    "Go Black Motors, E-Bike Électrique, Talaria, moto cross électrique, accessoires moto électrique, pièces off-road, Haute-Savoie, Bonneville, 74130, moto électrique Haute-Savoie, Talaria Haute-Savoie",
+  geoRegion: "FR-74",
+  geoPlacename: "Bonneville, Haute-Savoie",
+  geoPosition: "46.0803;6.4076",
 };
 
 export const navigationItems = [

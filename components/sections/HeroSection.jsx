@@ -21,6 +21,9 @@ export default function HeroSection() {
       <div className="hero-glow" />
 
       <div className="z-10 text-center flex flex-col items-center max-w-6xl">
+        <h1 className="sr-only">
+          Go Black Motors - E-Bike Électrique et accessoires en Haute-Savoie
+        </h1>
         <div className="w-full text-center px-3 xl:px-6">
           <FadeIn delay={0.2}>
             <h2 className="hero-eyebrow text-xs md:text-sm minW1600:!text-[1.6vw] tracking-[0.18em] md:tracking-[0.4em] uppercase mb-4">
@@ -43,11 +46,11 @@ export default function HeroSection() {
         <div className="hero-title-mobile relative w-full md:hidden">
           <FadeIn delay={0.28}>
             <div className="flex flex-col items-center">
-              <h1 className="hero-mobile-solid">{hero.mobileTitleLines[0]}</h1>
-              <h1 className="hero-mobile-solid hero-mobile-solid-second">
+              <div className="hero-mobile-solid">{hero.mobileTitleLines[0]}</div>
+              <div className="hero-mobile-solid hero-mobile-solid-second">
                 {hero.mobileTitleLines[1]}
-              </h1>
-              <h1 className="hero-mobile-outline">{hero.mobileTitleLines[2]}</h1>
+              </div>
+              <div className="hero-mobile-outline">{hero.mobileTitleLines[2]}</div>
             </div>
           </FadeIn>
         </div>

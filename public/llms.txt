@@ -1,0 +1,20 @@
+# Go Black Motors
+
+Site officiel: https://goblackmotors.com
+
+Go Black Motors est une boutique française basée à Bonneville, en Haute-Savoie, spécialisée dans les motos cross électriques, les modèles Talaria, les accessoires off-road, les équipements pilote, les batteries, les chargeurs et les pièces d'entretien.
+
+Pages principales:
+- Accueil: https://goblackmotors.com/
+- Gamme et solutions: https://goblackmotors.com/solutions
+- Accessoires et pièces: https://goblackmotors.com/zones-desservies-haute-savoie
+- Points forts: https://goblackmotors.com/points-forts
+- FAQ: https://goblackmotors.com/faq
+- Contact: https://goblackmotors.com/contact
+
+Contact:
+- Email: contact@goblackmotors.com
+- Téléphone: +33 6 80 42 30 31
+
+Sitemap:
+https://goblackmotors.com/sitemap.xml

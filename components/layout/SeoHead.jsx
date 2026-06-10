@@ -9,15 +9,63 @@ export default function SeoHead({ title, description, noindex = false, image }) 
     : `E-Bike Électrique | ${siteMeta.brand}`;
   const canonicalPath = router.asPath === "/" ? "" : router.asPath.split("?")[0];
   const canonicalUrl = `${siteMeta.siteUrl}${canonicalPath}`;
-  const metaImage = image || siteMeta.heroImage;
+  const metaImagePath = image || siteMeta.heroImage;
+  const metaImage = metaImagePath.startsWith("http")
+    ? metaImagePath
+    : `${siteMeta.siteUrl}${metaImagePath}`;
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: siteMeta.brand,
+      url: siteMeta.siteUrl,
+      email: siteMeta.email,
+      telephone: siteMeta.phoneDisplay,
+      logo: `${siteMeta.siteUrl}/talaria-black.svg`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      name: siteMeta.brand,
+      url: siteMeta.siteUrl,
+      email: siteMeta.email,
+      telephone: siteMeta.phoneDisplay,
+      image: metaImage,
+      areaServed: ["Haute-Savoie", "Bonneville", "France"],
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Bonneville",
+        postalCode: "74130",
+        addressRegion: "Haute-Savoie",
+        addressCountry: "FR",
+      },
+      description,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: siteMeta.siteName,
+      url: siteMeta.siteUrl,
+      inLanguage: "fr-FR",
+      description,
+    },
+  ];
 
   return (
     <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      <meta name="keywords" content={siteMeta.seoKeywords} />
+      <meta name="author" content={siteMeta.brand} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="canonical" href={canonicalUrl} />
-      <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large"} />
+      <link rel="alternate" hrefLang="fr-FR" href={canonicalUrl} />
+      <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"} />
+      <meta name="googlebot" content={noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1"} />
+      <meta name="geo.region" content={siteMeta.geoRegion} />
+      <meta name="geo.placename" content={siteMeta.geoPlacename} />
+      <meta name="geo.position" content={siteMeta.geoPosition} />
+      <meta name="ICBM" content={siteMeta.geoPosition.replace(";", ", ")} />
       <meta property="og:locale" content="fr_FR" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={siteMeta.siteName} />
@@ -29,6 +77,13 @@ export default function SeoHead({ title, description, noindex = false, image }) 
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={metaImage} />
+      {jsonLd.map((schema) => (
+        <script
+          key={schema["@type"]}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
     </Head>
   );
 }
