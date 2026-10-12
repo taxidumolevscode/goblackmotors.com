@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta name="theme-color" content="#000000" />
-        <meta name="application-name" content="Go Black Motors" />
+        <meta name="application-name" content="E-Bike Électrique Bonneville" />
         <link rel="icon" href="/talaria-black.svg" type="image/svg+xml" />
         <link rel="shortcut icon" href="/talaria-black.svg" type="image/svg+xml" />
         <link rel="manifest" href="/site.webmanifest" />

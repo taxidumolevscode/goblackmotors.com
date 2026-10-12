@@ -6,7 +6,7 @@ export default function Navigation({ onMenuOpen }) {
     <nav className="site-nav fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-40 mix-blend-difference text-white">
       <Link
         href="/"
-        className="text-sm md:text-base font-bold tracking-widest uppercase"
+        className="max-w-[13.5rem] text-[0.68rem] font-bold uppercase leading-tight tracking-[0.08em] sm:max-w-none sm:text-xs md:text-sm lg:text-base md:tracking-[0.14em]"
       >
         {siteMeta.brand}
       </Link>

@@ -9,7 +9,7 @@ export default function PointsFortsPage() {
     <>
       <SeoHead
         title="Points Forts"
-        description="Les points forts Go Black Motors: ponctualité, discrétion, confort, réservation rapide et service premium."
+        description="Les points forts E-Bike Électrique Bonneville: ponctualité, discrétion, confort, réservation rapide et service premium."
       />
       <SiteLayout>
         <PageHero

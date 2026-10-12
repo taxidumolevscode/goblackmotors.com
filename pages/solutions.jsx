@@ -10,7 +10,7 @@ export default function SolutionsPage() {
     <>
       <SeoHead
         title="Solutions"
-        description="La gamme Go Black Motors: motos cross électriques, accessoires, packs rider, batteries, chargeurs et pièces."
+        description="La gamme E-Bike Électrique Bonneville: motos cross électriques, accessoires, packs rider, batteries, chargeurs et pièces."
       />
       <SiteLayout>
         <PageHero
@@ -50,7 +50,7 @@ export default function SolutionsPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-black uppercase tracking-tight mb-3">
-                    Go Black Motors
+                    E-Bike Électrique Bonneville
                   </h2>
                   <p className="text-gray-300 leading-relaxed">
                     Une expérience claire pour choisir le bon modèle et le bon pack sans perte de temps.

@@ -7,7 +7,7 @@ export default function SiteFooter() {
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-[1.15fr_1fr_0.9fr_0.9fr] gap-8 md:gap-10">
         <div>
           <p className="text-xs uppercase tracking-[0.28em] text-gray-500 mb-4">
-            Go Black Motors
+            E-Bike Électrique Bonneville
           </p>
           <p className="text-sm md:text-base text-gray-300 leading-relaxed max-w-sm">
             Vente de motos cross électriques, accessoires, équipements et pièces off-road.
@@ -85,7 +85,7 @@ export default function SiteFooter() {
 
       <div className="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
         <p className="text-xs text-gray-500">
-          © 2026 Go Black Motors. Tous droits réservés.
+          © 2026 E-Bike Électrique Bonneville. Tous droits réservés.
         </p>
         <p className="text-xs text-gray-600 uppercase tracking-[0.2em]">
           E-Bike Électrique

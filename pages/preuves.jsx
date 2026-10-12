@@ -9,7 +9,7 @@ export default function PreuvesPage() {
     <>
       <SeoHead
         title="Preuves"
-        description="Repères de confiance Go Black Motors pour choisir un E-Bike Électrique et ses accessoires."
+        description="Repères de confiance E-Bike Électrique Bonneville pour choisir un E-Bike Électrique et ses accessoires."
       />
       <SiteLayout>
         <PageHero

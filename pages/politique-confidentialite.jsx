@@ -6,7 +6,7 @@ export default function PolitiqueConfidentialitePage() {
     <>
       <SeoHead
         title="Politique De Confidentialité"
-        description="Politique de confidentialité du site Go Black Motors."
+        description="Politique de confidentialité du site E-Bike Électrique Bonneville."
       />
       <SiteLayout>
         <section className="px-4 md:px-10 pt-36 pb-24 max-w-4xl">

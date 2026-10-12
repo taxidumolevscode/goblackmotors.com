@@ -10,7 +10,7 @@ export default function RessourcesPage() {
     <>
       <SeoHead
         title="Ressources"
-        description="Ressources Go Black Motors pour préparer l'achat d'un E-Bike Électrique ou d'accessoires."
+        description="Ressources E-Bike Électrique Bonneville pour préparer l'achat d'un E-Bike Électrique ou d'accessoires."
       />
       <SiteLayout>
         <PageHero

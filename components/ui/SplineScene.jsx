@@ -33,7 +33,7 @@ export default function SplineScene({ className = "" }) {
           Zone
         </p>
         <p className="mt-2 text-sm font-semibold uppercase tracking-[0.12em]">
-          Go Black Motors
+          E-Bike Électrique Bonneville
         </p>
       </div>
 

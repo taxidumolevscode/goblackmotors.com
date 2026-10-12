@@ -19,7 +19,7 @@ export default function LoadingScreen() {
           transition={{ duration: 2 }}
           className="h-0.5 bg-white w-32 mx-auto mb-4"
         />
-        <p className="font-light tracking-[0.3em] text-sm uppercase w-full">Go Black Motors</p>
+        <p className="font-light tracking-[0.3em] text-sm uppercase w-full">E-Bike Électrique Bonneville</p>
       </motion.div>
     </div>
   );

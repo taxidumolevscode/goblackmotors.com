@@ -19,7 +19,7 @@ export default function ContactPage() {
     <>
       <SeoHead
         title="Contact"
-        description="Contacter Go Black Motors pour acheter un E-Bike Électrique, demander un prix ou choisir des accessoires."
+        description="Contacter E-Bike Électrique Bonneville pour acheter un E-Bike Électrique, demander un prix ou choisir des accessoires."
       />
       <SiteLayout>
         <PageHero

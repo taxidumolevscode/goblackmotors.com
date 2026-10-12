@@ -29,7 +29,7 @@ export default function FaqPage() {
     <>
       <SeoHead
         title="FAQ"
-        description="Questions fréquentes sur l'achat d'un E-Bike Électrique et d'accessoires Go Black Motors."
+        description="Questions fréquentes sur l'achat d'un E-Bike Électrique et d'accessoires E-Bike Électrique Bonneville."
       />
       <script
         type="application/ld+json"

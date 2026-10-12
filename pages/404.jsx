@@ -18,7 +18,7 @@ export default function Custom404() {
             Cette Page N&apos;Existe Pas.
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed mb-10 max-w-2xl">
-            Revenez vers l&apos;accueil ou utilisez le menu pour poursuivre votre navigation sur le site Go Black Motors.
+            Revenez vers l&apos;accueil ou utilisez le menu pour poursuivre votre navigation sur le site E-Bike Électrique Bonneville.
           </p>
           <Link
             href="/"

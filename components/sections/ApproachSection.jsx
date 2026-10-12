@@ -15,7 +15,7 @@ export default function ApproachSection() {
           <FadeIn>
             <img 
               src={siteMeta.mascotImage}
-              alt="E-Bike Électrique Go Black Motors" 
+              alt="E-Bike Électrique E-Bike Électrique Bonneville" 
               className="w-full object-cover aspect-[4/5] bg-white/5"
             />
           </FadeIn>

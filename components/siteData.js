@@ -1,6 +1,6 @@
 export const siteMeta = {
-  brand: "Go Black Motors",
-  siteName: "Go Black Motors",
+  brand: "E-Bike Électrique Bonneville",
+  siteName: "E-Bike Électrique Bonneville",
   siteUrl: "https://goblackmotors.com",
   phoneDisplay: "+33 6 80 42 30 31",
   phoneHref: "tel:+33680423031",
@@ -10,7 +10,7 @@ export const siteMeta = {
   heroImage: "/talaria-e-bike-hero.webp",
   mascotImage: "/talaria-e-bike-hero.webp",
   seoKeywords:
-    "Go Black Motors, E-Bike Électrique, Talaria, moto cross électrique, accessoires moto électrique, pièces off-road, Haute-Savoie, Bonneville, 74130, moto électrique Haute-Savoie, Talaria Haute-Savoie",
+    "E-Bike Électrique Bonneville, E-Bike Électrique, Talaria, moto cross électrique, accessoires moto électrique, pièces off-road, Haute-Savoie, Bonneville, 74130, moto électrique Haute-Savoie, Talaria Haute-Savoie",
   geoRegion: "FR-74",
   geoPlacename: "Bonneville, Haute-Savoie",
   geoPosition: "46.0803;6.4076",
@@ -33,9 +33,9 @@ export const navigationMenu = {
 export const homeContent = {
   hero: {
     eyebrow: "E-Bike Électrique & accessoires en Haute-Savoie",
-    titleTop: "GO BLACK",
-    titleBottom: "MOTORS",
-    mobileTitleLines: ["Go Black", "Motors", "E-Cross"],
+    titleTop: "E-Bike Électrique",
+    titleBottom: "Bonneville",
+    mobileTitleLines: ["E-Bike", "Électrique", "Bonneville"],
     intro:
       "Vente de motos cross électriques, équipements, pièces et accessoires pour rouler plus fort, plus propre et avec un style radicalement noir.",
     bullets: ["Motos électriques", "Accessoires off-road", "Conseil avant achat"],
@@ -45,7 +45,7 @@ export const homeContent = {
   intro: {
     title: "Une boutique pensée pour l'E-Bike Électrique.",
     left:
-      "Go Black Motors sélectionne des motos cross électriques au look agressif, faciles à prendre en main et adaptées aux loisirs, terrains privés et pratiques off-road.",
+      "E-Bike Électrique Bonneville sélectionne des motos cross électriques au look agressif, faciles à prendre en main et adaptées aux loisirs, terrains privés et pratiques off-road.",
     right:
       "La boutique met aussi en avant les accessoires essentiels: protections, casques, gants, chargeurs, batteries, pneus, pièces d'entretien et équipements pilote.",
   },
@@ -135,8 +135,8 @@ export const homeContent = {
   ],
   proof: {
     quote:
-      "Go Black Motors veut rendre l'E-Bike Électrique plus accessible, plus stylé et plus simple à acheter avec les bons accessoires dès le départ.",
-    author: "Go Black Motors",
+      "E-Bike Électrique Bonneville veut rendre l'E-Bike Électrique plus accessible, plus stylé et plus simple à acheter avec les bons accessoires dès le départ.",
+    author: "E-Bike Électrique Bonneville",
     meta: "E-Bike Électrique",
   },
 };
@@ -155,7 +155,7 @@ export const officialHighlights = [
     text: "Aide au choix selon le niveau, la taille du pilote, le terrain, l'autonomie attendue et le budget.",
   },
   {
-    title: "Style Go Black",
+    title: "Style Électrique Bonneville",
     text: "Une identité noire, premium et agressive, pensée pour les riders qui veulent une machine qui se remarque.",
   },
 ];
@@ -249,7 +249,7 @@ export const pointsFortsContent = {
   eyebrow: "Points Forts",
   title: "Le plaisir off-road en version électrique.",
   intro:
-    "Go Black Motors mise sur des machines propres, puissantes et visuellement fortes, accompagnées des bons accessoires.",
+    "E-Bike Électrique Bonneville mise sur des machines propres, puissantes et visuellement fortes, accompagnées des bons accessoires.",
   items: [
     {
       number: "01",
@@ -269,7 +269,7 @@ export const pointsFortsContent = {
     {
       number: "04",
       title: "Style Noir",
-      text: "Une esthétique sombre, premium et agressive pour une vraie identité Go Black Motors.",
+      text: "Une esthétique sombre, premium et agressive pour une vraie identité E-Bike Électrique Bonneville.",
     },
   ],
 };
@@ -310,7 +310,7 @@ export const solutionsPageContent = {
   eyebrow: "Gamme",
   title: "Motos cross électriques Talaria en Haute-Savoie",
   intro:
-    "Go Black Motors propose une sélection orientée off-road électrique, avec les équipements qui vont avec, accessoires et pièces pour motos cross électriques.",
+    "E-Bike Électrique Bonneville propose une sélection orientée off-road électrique, avec les équipements qui vont avec, accessoires et pièces pour motos cross électriques.",
   cards: [
     {
       title: "E-Bike Électrique",
@@ -362,17 +362,17 @@ export const faqContent = [
   {
     question: "Qui sommes-nous ?",
     answer:
-      "Go Black Motors est une vitrine spécialisée dans les motos cross électriques, les accessoires off-road et les équipements rider. L'objectif est de présenter une gamme claire, moderne et orientée terrain privé, avec un accompagnement simple avant l'achat.",
+      "E-Bike Électrique Bonneville est une vitrine spécialisée dans les motos cross électriques, les accessoires off-road et les équipements rider. L'objectif est de présenter une gamme claire, moderne et orientée terrain privé, avec un accompagnement simple avant l'achat.",
   },
   {
     question: "Nos marques",
     answer:
-      "La sélection Go Black Motors met en avant des modèles électriques, des accessoires et des pièces choisis pour leur usage off-road, leur fiabilité et leur style. Les marques et disponibilités sont confirmées selon les arrivages, les modèles et les demandes clients.",
+      "La sélection E-Bike Électrique Bonneville met en avant des modèles électriques, des accessoires et des pièces choisis pour leur usage off-road, leur fiabilité et leur style. Les marques et disponibilités sont confirmées selon les arrivages, les modèles et les demandes clients.",
   },
   {
     question: "Devenir revendeur",
     answer:
-      "Les professionnels qui souhaitent distribuer ou proposer les produits Go Black Motors peuvent prendre contact avec la boutique. La demande est étudiée selon la zone, le profil, l'activité et la capacité à accompagner les clients sur le choix des motos et accessoires.",
+      "Les professionnels qui souhaitent distribuer ou proposer les produits E-Bike Électrique Bonneville peuvent prendre contact avec la boutique. La demande est étudiée selon la zone, le profil, l'activité et la capacité à accompagner les clients sur le choix des motos et accessoires.",
   },
   {
     question: "Espace revendeur",
@@ -380,9 +380,9 @@ export const faqContent = [
       "Un espace revendeur pourra regrouper les informations utiles aux professionnels: demandes de disponibilité, conditions de commande, suivi des produits, accessoires et pièces. Pour le moment, l'accès se prépare directement par contact.",
   },
   {
-    question: "Go Black Motors vend quoi exactement ?",
+    question: "E-Bike Électrique Bonneville vend quoi exactement ?",
     answer:
-      "Go Black Motors vend des motos cross électriques, des accessoires, des équipements pilote et des pièces liées à l'usage off-road.",
+      "E-Bike Électrique Bonneville vend des motos cross électriques, des accessoires, des équipements pilote et des pièces liées à l'usage off-road.",
   },
   {
     question: "Comment connaître le prix d'une moto ?",

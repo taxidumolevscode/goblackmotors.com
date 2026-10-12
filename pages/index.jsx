@@ -45,7 +45,7 @@ export default function Home() {
     <>
       <SeoHead
         title="E-Bike Électrique"
-        description="Go Black Motors vend des motos cross électriques, accessoires, équipements pilote et pièces off-road."
+        description="E-Bike Électrique Bonneville vend des motos cross électriques, accessoires, équipements pilote et pièces off-road."
       />
       <script
         type="application/ld+json"

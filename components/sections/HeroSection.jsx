@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="hero-visual absolute inset-0 z-0">
         <img
           src={siteMeta.heroImage}
-          alt="E-Bike Électrique Go Black Motors"
+          alt="E-Bike Électrique Bonneville"
           className="hero-image w-full h-full object-contain"
         />
       </div>
@@ -22,7 +22,7 @@ export default function HeroSection() {
 
       <div className="z-10 text-center flex flex-col items-center max-w-6xl">
         <h1 className="sr-only">
-          Go Black Motors - E-Bike Électrique et accessoires en Haute-Savoie
+          E-Bike Électrique Bonneville - accessoires en Haute-Savoie
         </h1>
         <div className="w-full text-center px-3 xl:px-6">
           <FadeIn delay={0.2}>
@@ -35,11 +35,11 @@ export default function HeroSection() {
         <div className="relative hero-title-stack hidden md:block">
           <AnimatedText
             text={hero.titleTop}
-            className="hero-title-solid text-[10vw] md:text-[7.4vw] xl:text-[6.4rem] leading-[0.88] font-black px-2 tracking-[-0.045em] uppercase mix-blend-overlay mb-2"
+            className="hero-title-solid text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[0.95] font-black px-2 tracking-normal uppercase mix-blend-overlay mb-2"
           />
           <AnimatedText
             text={hero.titleBottom}
-            className="hero-title-outline text-[10vw] md:text-[7.4vw] xl:text-[6.4rem] leading-[0.88] font-black px-2 tracking-[-0.045em] uppercase text-transparent stroke-white border-white"
+            className="hero-title-outline text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[0.95] font-black px-2 tracking-normal uppercase text-transparent stroke-white border-white"
           />
         </div>
 
@@ -213,16 +213,16 @@ export default function HeroSection() {
           }
 
           .hero-title-solid {
-            font-size: clamp(3.7rem, 15vw, 5.4rem) !important;
+            font-size: 3.6rem !important;
             line-height: 0.92 !important;
-            letter-spacing: -0.055em !important;
+            letter-spacing: 0 !important;
             margin-bottom: 0.25rem !important;
           }
 
           .hero-title-outline {
-            font-size: clamp(3rem, 12.8vw, 4.6rem) !important;
+            font-size: 3.25rem !important;
             line-height: 0.95 !important;
-            letter-spacing: -0.05em !important;
+            letter-spacing: 0 !important;
           }
 
           .hero-eyebrow {
@@ -248,9 +248,9 @@ export default function HeroSection() {
           }
 
           .hero-mobile-solid {
-            font-size: clamp(3.05rem, 13.2vw, 4.35rem);
+            font-size: 3rem;
             line-height: 0.9;
-            letter-spacing: -0.065em;
+            letter-spacing: 0;
             font-weight: 900;
             color: white;
           }
@@ -261,9 +261,9 @@ export default function HeroSection() {
 
           .hero-mobile-outline {
             margin-top: 0.55rem;
-            font-size: clamp(2.45rem, 10.8vw, 3.75rem);
+            font-size: 2.85rem;
             line-height: 0.94;
-            letter-spacing: -0.05em;
+            letter-spacing: 0;
             font-weight: 900;
             color: transparent;
             -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.95);
@@ -276,11 +276,11 @@ export default function HeroSection() {
           }
 
           .hero-mobile-solid {
-            font-size: clamp(2.85rem, 12.7vw, 4rem);
+            font-size: 2.65rem;
           }
 
           .hero-mobile-outline {
-            font-size: clamp(2.3rem, 10.3vw, 3.45rem);
+            font-size: 2.45rem;
           }
         }
       `}</style>

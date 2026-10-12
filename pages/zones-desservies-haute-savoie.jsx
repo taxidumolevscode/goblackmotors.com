@@ -9,13 +9,13 @@ export default function ZonesDesserviesPage() {
     <>
       <SeoHead
         title="Zones Desservies"
-        description="Accessoires Go Black Motors: équipements pilote, batteries, chargeurs, pneus, pièces et consommables off-road."
+        description="Accessoires E-Bike Électrique Bonneville: équipements pilote, batteries, chargeurs, pneus, pièces et consommables off-road."
       />
       <SiteLayout>
         <PageHero
           eyebrow="Accessoires"
           title="Équipements pilote, batteries, chargeurs et pièces off-road."
-          intro="Go Black Motors vous aide à composer un pack cohérent autour de votre E-Bike Électrique."
+          intro="E-Bike Électrique Bonneville vous aide à composer un pack cohérent autour de votre E-Bike Électrique."
           image={siteMeta.heroImage}
         />
 
